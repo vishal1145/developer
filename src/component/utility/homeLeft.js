@@ -1,9 +1,8 @@
-import React from 'react'
+import React from "react";
+import '../css/style.css';
 
-function homeLeft() {
-  return (
-    <div>homeLeft</div>
-  )
+function HomeLeft() {
+  return <div className="col-3 home-left">1 of 3</div>;
 }
 
-export default homeLeft;
+export default HomeLeft;
