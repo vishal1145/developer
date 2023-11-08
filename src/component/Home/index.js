@@ -7,10 +7,10 @@ import HomeRight from '../utility/homeRight';
 
 function Home() {
   return (
-    <div className="container-fluid">
-      <div className="row">
+    <div className="container-fluid p-0">
+      <div className="d-flex">
         <HomeLeft/>
-        <div className="col-8 home-mid">
+        <div className="col-9 home-mid">
           <div className="home-inner">
             <div className="h-m-div1">
               <h1 className="h-heading">
