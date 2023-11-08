@@ -10,7 +10,7 @@ function Home() {
     <div className="container-fluid p-0">
       <div className="d-flex">
         <HomeLeft/>
-        <div className="col-9 home-mid">
+        <div className="home-mid">
           <div className="home-inner">
             <div className="h-m-div1">
               <h1 className="h-heading">

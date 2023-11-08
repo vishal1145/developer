@@ -12,12 +12,12 @@ import ContrastImg from '../assests/Contrast.png';
 function HomeRight() {
 
   const images = [
-    { URL: homeImg },
-    { URL: FileCodeImg },
-    { URL: CVImg },
-    { URL: PortfolioImg },
-    { URL: BlogImg },
-    { URL: Contactimg },
+    { URL: homeImg, active: true },
+    { URL: FileCodeImg, active: false },
+    { URL: CVImg, active: false },
+    { URL: PortfolioImg, active: false },
+    { URL: BlogImg, active: false },
+    { URL: Contactimg, active: false },
   ]
 
   return <div className="home-right">
@@ -26,7 +26,7 @@ function HomeRight() {
         <svg class="bi" width="40" height="32"><use href="#bootstrap"></use></svg>
         <span class="visually-hidden">Icon-only</span>
       </a>
-      <ul class="nav nav-pills nav-flush flex-column mb-auto text-center">
+      <ul class="nav nav-pills nav-flush flex-column mb-auto align-items-center">
         <li class="nav-item">
           <a href="#" class="nav-link  py-3 mb-5" aria-current="page" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Home">
             <img src={ContrastImg} />
@@ -34,7 +34,7 @@ function HomeRight() {
         </li>
         {images.map((e) => (
           <li class="nav-item">
-            <a href="#" class="nav-link  py-3 border-bottom" aria-current="page" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Home">
+            <a href="#" class="nav-link navlinks" style={{background: e.active === true ? "#FFB400" : "#F0F0F6"}} aria-current="page" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Home">
               <img src={e.URL} />
             </a>
           </li>
