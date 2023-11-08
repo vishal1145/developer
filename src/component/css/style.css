@@ -1,0 +1,34 @@
+.home-left{
+    background-color:blue;
+    height:100vh;
+}
+.home-mid{
+    background-color:#F0F0F6;
+}
+.home-inner{
+    display:flex;
+    background-color:#FFF;
+    padding-inline:30px;
+    margin-inline:20px;
+}
+.h-m-div1{
+    width:70%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+.h-heading{
+    font-size:40px;
+}
+.h-fd{
+    color:#FFB400;
+}
+.hire-btn{
+    background-color:#FFB400;
+    border-radius:0px;
+    margin-top:30px;
+}
+
+.home-right{
+    background-color:green;
+}
