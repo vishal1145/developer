@@ -2,6 +2,18 @@ import React from "react";
 import '../css/style.css';
 import './Portfolio.css';
 
+const portfolioData = [
+  { img: "portfolio1" },
+  { img: "portfolio2" },
+  { img: "portfolio3" },
+  { img: "portfolio4" },
+  { img: "portfolio5" },
+  { img: "portfolio6" },
+  { img: "portfolio7" },
+  { img: "portfolio8" },
+  { img: "portfolio9" },
+];
+
 function Portfolio() {
   return (
     <div className="services">
@@ -18,10 +30,10 @@ function Portfolio() {
         <div>Branding</div>
       </div>
       <div className="portfolio-board">
-        {Array.from({ length: 9 }, (_, i) => (
+        {portfolioData.map((val,i)=>(
           <img
             key={i}
-            src={require(`../assests/portfolio${i+1}.jpeg`)}
+            src={require(`../assests/${val.img}.jpeg`)}
             alt={`portfolio ${i + 1}`}
           />
         ))}

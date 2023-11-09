@@ -3,9 +3,24 @@ import "../css/style.css";
 import "./Blog.css";
 
 const blogData = [
-  "How to Make Web templates",
-  "Make Business Card",
-  "How To make Flyer Design",
+  {
+    img: "portfolio1",
+    title: "How to Make Web templates",
+    about:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna",
+  },
+  {
+    img: "portfolio1",
+    title: "Make Business Card",
+    about:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna",
+  },
+  {
+    img: "portfolio1",
+    title: "How To make Flyer Design",
+    about:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna",
+  },
 ];
 
 function Blog() {
@@ -18,17 +33,15 @@ function Blog() {
       </div>
       <div className="Blog-board">
         {blogData.map((val, i) => (
-          <div className="portfolio-card">
+          <div className="portfolio-card" key={i}>
             <img
-              key={i}
-              src={require(`../assests/portfolio${i + 1}.jpeg`)}
+              src={require(`../assests/${val.img}.jpeg`)}
               alt={`portfolio ${i + 1}`}
             />
             <div className="port-details">
-              <div className="text-bold my-2">{val}</div>
+              <div className="text-bold my-2">{val.title}</div>
               <div className="text-gray">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae
-                nulla diam in ac dictum a urna{" "}
+                {val.about}
               </div>
               <div className="learn-more">
                 Learn More <img src={require("../assests/Frame2.png")} />

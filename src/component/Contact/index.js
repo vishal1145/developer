@@ -6,7 +6,7 @@ function Contact() {
   return (
     <div className="contact">
       <div className="leave-us">
-        <h1 className="text-bold">Leave Us Your Info</h1>
+      <h1 className="text-bold">Leave Us Your Info</h1>
         <div className="leave-us-form">
           <label htmlFor="name" className="form-label">
             Your Full Name (Required)
@@ -14,9 +14,9 @@ function Contact() {
           <input type="text" className="form-control" />
           <label htmlFor="email">Your Email(Required)</label>
           <input type="email" className="form-control" />
-          <label htmlFor="name">Your Subject (Required)</label>
+          <label htmlFor="name">Subject</label>
           <input type="text" className="form-control" />
-          <label htmlFor="name">Your Message (Required)</label>
+          <label htmlFor="name">Your Message</label>
           <input type="text" className="form-control" />
           <input type="sumbit" className="btn bg-yellow" value="Submit" />
         </div>

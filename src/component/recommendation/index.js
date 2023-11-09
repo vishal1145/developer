@@ -3,22 +3,34 @@ import '../css/style.css';
 import './recom.css';
 
 const recomData = [
-     {name : 'James Gouse',
-     profession : 'Graphic Designer',
-     rating : 5, review:'Great Quanlity!',
-     about:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna viverra morbi. Morbi donec amet....'
-     },
-     {name : 'Tiana Philips',
-     profession : 'Photographer',
-     rating : 5, review:'Awazing Work!',
-     about:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna viverra morbi. Morbi donec amet....'
-     },
-     {name : 'Talan Westervelt',
-     profession : 'Business Man',
-     rating : 5, review:'Great Quanlity!',
-     about:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna viverra morbi. Morbi donec amet....'
-     },
-]
+  {
+    name: "James Gouse",
+    img: "reviewImg0",
+    profession: "Graphic Designer",
+    rating: 5,
+    review: "Great Quanlity!",
+    about:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna viverra morbi. Morbi donec amet....",
+  },
+  {
+    name: "Tiana Philips",
+    img: "reviewImg1",
+    profession: "Photographer",
+    rating: 5,
+    review: "Awazing Work!",
+    about:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna viverra morbi. Morbi donec amet....",
+  },
+  {
+    name: "Talan Westervelt",
+    img: "reviewImg2",
+    profession: "Business Man",
+    rating: 5,
+    review: "Great Quanlity!",
+    about:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna viverra morbi. Morbi donec amet....",
+  },
+];
 
 function Recommendations() {
   return (
@@ -44,7 +56,7 @@ function Recommendations() {
             <div className="review-about">{val.about}</div>
             <div className="d-flex">
               <div className="review-img">
-                <img src={require(`../assests/reviewImg${idx}.jpeg`)} />
+                <img src={require(`../assests/${val.img}.jpeg`)} />
               </div>
               <div className="review-person-details">
                 <div className="fw-bold">{val.name}</div>
