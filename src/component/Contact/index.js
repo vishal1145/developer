@@ -6,28 +6,28 @@ function Contact() {
   return (
     <div className="contact">
       <div className="leave-us">
-      <h1 className="text-bold">Leave Us Your Info</h1>
+        <h2 className="text-bold">Leave Us Your Info</h2>
         <div className="leave-us-form">
           <label htmlFor="name" className="form-label">
             Your Full Name (Required)
           </label>
-          <input type="text" className="form-control" />
+          <input type="text" className="form-control bg-input" />
           <label htmlFor="email">Your Email(Required)</label>
-          <input type="email" className="form-control" />
+          <input type="email" className="form-control bg-input" />
           <label htmlFor="name">Subject</label>
-          <input type="text" className="form-control" />
+          <input type="text" className="form-control bg-input" />
           <label htmlFor="name">Your Message</label>
-          <input type="text" className="form-control" />
+          <input type="text" className="form-control bg-input input-msg" />
           <input type="sumbit" className="btn bg-yellow" value="Submit" />
         </div>
       </div>
       <div className="contact-info">
-        <h1>Contact Information</h1>
+        <h2>Contact Information</h2>
         <div className="contact-card">
-          <div className="contact-card-details">
+          <div className="contact-card-img">
             <img src={require("../assests/mail.png")} />
           </div>
-          <div>
+          <div className="contact-card-details">
             <div className="d-flex justify-content-between">
               <div>Contact</div>
               <div>Bangladesh</div>
@@ -43,10 +43,10 @@ function Contact() {
           </div>
         </div>
         <div className="contact-card">
-          <div className="contact-card-details">
+          <div className="contact-card-img">
             <img src={require("../assests/Mobile.png")} />
           </div>
-          <div>
+          <div className="contact-card-details">
             <div className="d-flex justify-content-between">
               <div>Email:</div>
               <div>Youemial@gmail.com</div>
@@ -62,10 +62,10 @@ function Contact() {
           </div>
         </div>
         <div className="contact-card">
-          <div className="contact-card-details">
+          <div className="contact-card-img">
             <img src={require("../assests/location.png")} />
           </div>
-          <div>
+          <div className="contact-card-details">
             <div className="d-flex justify-content-between">
               <div>Support Services: </div>
               <div>15 hs</div>

@@ -4,17 +4,17 @@ const serviceData = [
   { img: "serviceImg0", name: "Web development", about: "blog, e-commerce" },
   {
     img: "serviceImg0",
-    name: "UI/UX design",
+    name: "UI/UX Design",
     about: "Mobile app, website design",
   },
   {
     img: "serviceImg1",
-    name: "Sound design",
+    name: "Sound Design",
     about: "Voice Over, Beat Making",
   },
   {
     img: "serviceImg2",
-    name: "Game design",
+    name: "Game Design",
     about: "Character Design, Props & Objects",
   },
   {
@@ -33,7 +33,7 @@ const serviceData = [
 function Services() {
   return (
     <div className="services">
-      <h1>My services</h1>
+      <h1>My Services</h1>
       <div className="service-about">
         Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
         sint. Velit officia consequat duis enim velit mollit. lorem ipsum

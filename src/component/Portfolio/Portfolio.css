@@ -4,11 +4,30 @@
     justify-content:space-between;
     gap:25px;
 }
+.portfolio-nav .active{
+    color:#FFB400;
+}
 .portfolio-board{
     margin:20px;
+    position:relative;
 }
 .portfolio-board img{
     width:300px;
     height:300px;
     margin: 10px;
+}
+
+.add-profile{
+    position:absolute;
+    top:10px;
+    left:10px;
+    width:300px;
+    height:300px;
+    background-color:#FFB400;
+    opacity:0.8;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:50px;
+    color:black;
 }

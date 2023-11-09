@@ -23,7 +23,7 @@ function Portfolio() {
         sint. Velit officia consequat duis enim velit mollit. lorem ipsum
       </div>
       <div className="portfolio-nav">
-        <div>All Categories</div>
+        <div className="active">All Categories</div>
         <div>UI Design</div>
         <div>Web Templates</div>
         <div>Logo</div>
@@ -31,11 +31,17 @@ function Portfolio() {
       </div>
       <div className="portfolio-board">
         {portfolioData.map((val,i)=>(
+          <>
           <img
             key={i}
             src={require(`../assests/${val.img}.jpeg`)}
             alt={`portfolio ${i + 1}`}
           />
+          {
+            i===0 && 
+            <div className="add-profile">+</div>
+          }
+          </>
         ))}
       </div>
     </div>

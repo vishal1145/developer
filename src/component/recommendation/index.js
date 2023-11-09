@@ -59,7 +59,7 @@ function Recommendations() {
                 <img src={require(`../assests/${val.img}.jpeg`)} />
               </div>
               <div className="review-person-details">
-                <div className="fw-bold">{val.name}</div>
+                <div className="person-name">{val.name}</div>
                 <div className="profession">{val.profession}</div>
               </div>
             </div>

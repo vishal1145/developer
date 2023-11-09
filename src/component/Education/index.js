@@ -43,7 +43,8 @@ function Education() {
             <div className="education-div1">
               <div className="text-bold">{val.course}</div>
               <div className="text-small student">
-                {val.type} <span className="bg-yellow">{val.date}</span>
+                {val.type}{" "}
+                <span className="date">{val.date}</span>
               </div>
             </div>
             <div className="education-div2">

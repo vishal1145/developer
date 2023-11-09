@@ -24,10 +24,3 @@
 .text-small{
     font-size:14px;
 }
-.bg-yellow{
-    background-color:var(--bg);
-    color:white;
-    padding-inline:5px;
-    font-size:12px;
-    margin-left:15px;
-}

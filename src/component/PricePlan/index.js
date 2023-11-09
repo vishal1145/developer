@@ -46,14 +46,17 @@ function PricePlan() {
       </div>
       <div className="service-board">
         {pricePlanData.map((price, i) => (
-          <div className="price-card" key={i}>
+          <div
+            className={`price-card ${price.isPopular && "popular-card"}`}
+            key={i}
+          >
             {price.isPopular && (
               <div className="most-popular">Most Popular</div>
             )}
             <div className="price-card-head">
               <div className="price-name">{price.name}</div>
               <div>
-                <span className="price-price">${price.price}</span>{" "}
+                <span className="price-price">${price.price}.00</span>
                 <span className="price-hour">/Hour</span>
               </div>
               <div className="price-about">{price.about}</div>
@@ -71,7 +74,7 @@ function PricePlan() {
                   ) : (
                     <div className="d-flex my-3">
                       <img src={Close} style={{ marginRight: "10px" }} />
-                      <div> {access} </div>
+                      <div className="text-gray"> {access} </div>
                     </div>
                   )}
                 </div>
@@ -79,7 +82,7 @@ function PricePlan() {
             </div>
             <div className="price-order-now">
               <button
-                className={`btn ${price.isPopular ? "popular" : "not-popular"}`}
+                className={`btn order-now-btn ${price.isPopular && "popular"}`}
               >
                 ORDER NOW
               </button>

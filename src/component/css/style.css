@@ -1,10 +1,16 @@
 :root{
     --about:#767676;
     --bg:#FFB400;
+    --active:#7EB942;
 }
 
+*::first-letter {
+  text-transform: uppercase;
+}
 .home-left {
-    width: 18%;
+    width: 20%;
+    padding:25px;
+    background-color: #FFF;
 }
 
 .home-right {
@@ -21,6 +27,49 @@
     background-color: #FFF;
     padding-inline: 30px;
     margin-inline: 20px;
+    position:relative;
+}
+
+.into-bg-icons{
+    width:14px;
+    height:14px;
+    position:absolute;
+}
+#Ellipse1{
+    left:20px;
+    top:30px;
+}
+#Ellipse2{
+    left:60px;
+    bottom:40px;
+}
+#Ellipse3{
+    left:450px;
+    top:40px;
+}
+#Ellipse4{
+    left:550px;
+    bottom:40px;
+}
+#Ellipse5{
+    right:50px;
+    bottom:20px;
+}
+#Ellipse6{
+    left:400px;
+    top:250px;
+    border:2px solid #0047FF;
+    width:12px;
+    height:12px;
+    transform:rotate(45deg);
+}
+#Ellipse7{
+    right:50px;
+    top:20px;
+    border:2px solid #FFB400;
+    width:12px;
+    height:12px;
+    transform:rotate(45deg);
 }
 
 .h-m-div1 {
@@ -50,6 +99,7 @@
     margin-top: 30px;
     width:150px;
     gap:10px;
+    border-radius:5px;
 }
 
 .navlinks {
@@ -129,4 +179,74 @@
 }
 .bg-yellow{
     background-color:var(--bg);
+}
+.date{
+    background-color:var(--bg);
+    color:white;
+    padding:2px 5px;
+    font-size:10px;
+    margin-left:15px;
+}
+
+.homeLeft-about{
+    margin-block:30px;
+    padding-top:30px;
+    font-size:14px;
+    border-top:1px solid #F0F0F6;
+}
+.text-green{
+    color:var(--active);
+}
+
+.home-left-language{
+    margin-top:30px;
+    border-top:1px solid #F0F0F6;
+}
+
+.home-left-language div{
+    color: var(--about);
+    font-size:14px;
+}
+
+.progress{
+    border:1px solid #FFB400;
+    padding:1px;
+}
+.progress-bar{
+    background-color:var(--bg);
+}
+
+.extraSkill{
+    gap:10px;
+    margin-block:10px;
+}
+
+.download-btn{
+    padding-top:30px;
+}
+.download-btn a{
+    text-decoration:none;
+}
+.download-btn button{
+    width:100%;
+    border-radius:0px;
+    font-size:14px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-weight:500;
+    gap:20px;
+}
+
+.profile-icons{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.profile-icons img{
+    width:20px;
+    height:20px;
+    background-color:var(--bg);
+    padding:4px;
+    border-radius:50%;
 }

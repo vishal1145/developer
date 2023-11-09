@@ -4,7 +4,7 @@ import "./Blog.css";
 
 const blogData = [
   {
-    img: "portfolio1",
+    img: "blogImg1",
     title: "How to Make Web templates",
     about:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna",
@@ -16,7 +16,7 @@ const blogData = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna",
   },
   {
-    img: "portfolio1",
+    img: "portfolio3",
     title: "How To make Flyer Design",
     about:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna",
