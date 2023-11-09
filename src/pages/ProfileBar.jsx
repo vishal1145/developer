@@ -1,11 +1,8 @@
 import React from "react";
-import "../css/style.css";
-import Profile from "../assests/Profile.jpg";
-import Available from "../assests/Available.png";
+import Profile from "./assests/Profile.jpg";
+import Available from "./assests/Available.png";
 
-const profileData = {};
-
-function HomeLeft() {
+function ProfileBar() {
   return (
     <div className="home-left">
       <div className="">
@@ -26,49 +23,53 @@ function HomeLeft() {
       <div className="d-flex justify-content-around">
         <div className="profile-icons">
           <a href="#" target="_blank">
-            <img src={require(`../assests/Icons-facebook.png`)} />
+            <img src={require(`./assests/Icons-facebook.png`)} />
           </a>
         </div>
         <div className="profile-icons">
           <a href="#" target="_blank">
-            <img src={require(`../assests/Icons-instagram.png`)} />
+            <img src={require(`./assests/Icons-instagram.png`)} />
           </a>
         </div>
         <div className="profile-icons">
           <a href="#" target="_blank">
-            <img src={require(`../assests/Icons-twitter.png`)} />
+            <img src={require(`./assests/Icons-twitter.png`)} />
           </a>
         </div>
         <div className="profile-icons">
           <a href="#" target="_blank">
-            <img src={require(`../assests/Icons-linkedin.png`)} />
+            <img src={require(`./assests/Icons-linkedin.png`)} />
           </a>
         </div>
         <div className="profile-icons">
           <a href="#" target="_blank">
-            <img src={require(`../assests/Icons-Youtube.png`)} />
+            <img src={require(`./assests/Icons-Youtube.png`)} />
           </a>
         </div>
         <div className="profile-icons">
           <a href="#" target="_blank">
-            <img src={require(`../assests/Icons-dribbble.png`)} />
+            <img src={require(`./assests/Icons-dribbble.png`)} />
           </a>
         </div>
       </div>
       <div className="homeLeft-about">
-        <div className="d-flex justify-content-between mb-2">
+        <div
+          className="d-flex justify-content-between align-items-center mb-2"
+        >
           <div className="bg-yellow p-1">Age:</div>
           <div>24</div>
         </div>
-        <div className="d-flex justify-content-between mb-2">
+        <div
+          className="d-flex justify-content-between align-items-center mb-2"
+        >
           <div className="bg-yellow p-1">Residence:</div>
           <div>BD</div>
         </div>
-        <div className="d-flex justify-content-between mb-2">
+        <div className="d-flex justify-content-between align-items-center mb-2">
           <div className="bg-yellow p-1">Freelance:</div>
           <div className="text-green">Available</div>
         </div>
-        <div className="d-flex justify-content-between mb-2">
+        <div className="d-flex justify-content-between align-items-center mb-2">
           <div className="bg-yellow p-1">Address:</div>
           <div>Dhaka,Bangladesh</div>
         </div>
@@ -156,25 +157,25 @@ function HomeLeft() {
         <div className="mb-1">
           <div className="d-flex mb-1 extraSkill">
             <div>
-              <img src={require(`../assests/extraSkillIcons.png`)} />
+              <img src={require(`./assests/extraSkillIcons.png`)} />
             </div>
             <div>Bootstrap, Materialize</div>
           </div>
           <div className="d-flex mb-1 extraSkill">
             <div>
-              <img src={require(`../assests/extraSkillIcons.png`)} />
+              <img src={require(`./assests/extraSkillIcons.png`)} />
             </div>
             <div>Stylus, Saas, Less</div>
           </div>
           <div className="d-flex mb-1 extraSkill">
             <div>
-              <img src={require(`../assests/extraSkillIcons.png`)} />
+              <img src={require(`./assests/extraSkillIcons.png`)} />
             </div>
             <div>Gulp, Webpack, Grunt</div>
           </div>
           <div className="d-flex mb-1 extraSkill">
             <div>
-              <img src={require(`../assests/extraSkillIcons.png`)} />
+              <img src={require(`./assests/extraSkillIcons.png`)} />
             </div>
             <div>GIT Knowledge</div>
           </div>
@@ -182,9 +183,9 @@ function HomeLeft() {
       </div>
       <div className="home-left-language download-btn">
         <a href="your_cv_file.pdf" download>
-          <button className="btn bg-yellow">
+          <button className="bg-yellow">
             DOWNLOAD CV
-            <img src={require(`../assests/dowloadIcon.png`)} />
+            <img src={require(`./assests/dowloadIcon.png`)} />
           </button>
         </a>
       </div>
@@ -192,4 +193,4 @@ function HomeLeft() {
   );
 }
 
-export default HomeLeft;
+export default ProfileBar;

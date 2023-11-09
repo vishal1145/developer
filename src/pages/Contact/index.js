@@ -1,10 +1,9 @@
 import React from "react";
-import "../css/style.css";
 import "./Contact.css";
 
 function Contact() {
   return (
-    <div className="contact">
+    <div className="contact" id="contact">
       <div className="leave-us">
         <h2 className="text-bold">Leave Us Your Info</h2>
         <div className="leave-us-form">
@@ -18,14 +17,18 @@ function Contact() {
           <input type="text" className="form-control bg-input" />
           <label htmlFor="name">Your Message</label>
           <textarea type="text" className="form-control bg-input input-msg" />
-          <input type="sumbit" className="btn bg-yellow submit-btn" value="Send Message" />
+          <input
+            type="sumbit"
+            className="btn bg-yellow submit-btn"
+            value="Send Message"
+          />
         </div>
       </div>
       <div className="contact-info">
         <h2>Contact Information</h2>
         <div className="contact-card">
           <div className="contact-card-img">
-            <img src={require("../assests/mail.png")} />
+            <img src={require("../assests/location.png")} />
           </div>
           <div className="contact-card-details">
             <div className="d-flex justify-content-between">
@@ -44,7 +47,7 @@ function Contact() {
         </div>
         <div className="contact-card">
           <div className="contact-card-img">
-            <img src={require("../assests/Mobile.png")} />
+            <img src={require("../assests/mail.png")} />
           </div>
           <div className="contact-card-details">
             <div className="d-flex justify-content-between">
@@ -63,7 +66,7 @@ function Contact() {
         </div>
         <div className="contact-card">
           <div className="contact-card-img">
-            <img src={require("../assests/location.png")} />
+            <img src={require("../assests/Mobile.png")} />
           </div>
           <div className="contact-card-details">
             <div className="d-flex justify-content-between">

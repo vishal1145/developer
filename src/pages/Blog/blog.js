@@ -1,5 +1,4 @@
 import React from "react";
-import "../css/style.css";
 import "./Blog.css";
 
 const blogData = [
@@ -25,7 +24,7 @@ const blogData = [
 
 function Blog() {
   return (
-    <div className="services">
+    <div className="services" id="blog">
       <h1>Blog</h1>
       <div className="service-about">
         Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet

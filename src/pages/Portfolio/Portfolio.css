@@ -7,6 +7,9 @@
 .portfolio-nav .active{
     color:#FFB400;
 }
+.portfolio-nav div{
+    cursor:pointer;
+}
 .portfolio-board{
     margin:20px;
     position:relative;

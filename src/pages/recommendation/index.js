@@ -1,5 +1,4 @@
 import React from "react";
-import '../css/style.css';
 import './recom.css';
 
 const recomData = [
@@ -65,6 +64,22 @@ function Recommendations() {
             </div>
           </div>
         ))}
+      </div>
+
+      <div className="three-icons">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="50"
+          height="10"
+          viewBox="0 0 50 10"
+          fill="none"
+        >
+          <g id="Group 39">
+            <circle id="Ellipse 19" cx="5" cy="5" r="5" fill="#FFB400" />
+            <circle id="Ellipse 20" cx="25" cy="5" r="5" fill="#FFB400" />
+            <circle id="Ellipse 21" cx="45" cy="5" r="5" fill="#FFB400" />
+          </g>
+        </svg>
       </div>
     </div>
   );

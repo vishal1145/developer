@@ -1,5 +1,4 @@
 import React from "react";
-import "../css/style.css";
 import "./price.css";
 import Check from '../assests/Check.png';
 import Close from '../assests/Close.png';

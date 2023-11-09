@@ -22,10 +22,10 @@
 .review{
     font-weight:500;
     margin-block:10px;
-    margin-bottom:15px;
+    margin-bottom:10px;
 }
 .review-about{
-    margin-bottom:25px;
+    margin-bottom:20px;
     color:var(--about);
 }
 

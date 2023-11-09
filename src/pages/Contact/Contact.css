@@ -19,6 +19,7 @@
 .bg-input{
     margin-bottom:20px;
     background-color:#F0F0F6;
+    height:50px;
 }
 .input-msg{
     display:flex;
