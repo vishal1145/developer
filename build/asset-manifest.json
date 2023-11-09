@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9685f432.css",
+    "main.js": "/static/js/main.e754cab8.js",
+    "static/js/787.b14399f2.chunk.js": "/static/js/787.b14399f2.chunk.js",
+    "static/media/mapImg.png": "/static/media/mapImg.2fef93236a8f9554ed83.png",
+    "static/media/portfolio7.jpeg": "/static/media/portfolio7.b123e1b82d1b0ff22f19.jpeg",
+    "static/media/Your Image 1.png": "/static/media/Your Image 1.10f842e95942f5fab347.png",
+    "static/media/portfolio8.jpeg": "/static/media/portfolio8.af4d3dee15b99fcc08de.jpeg",
+    "static/media/portfolio9.jpeg": "/static/media/portfolio9.f552a8e7300252274aad.jpeg",
+    "static/media/portfolio5.jpeg": "/static/media/portfolio5.9a4479a0a31881fcde25.jpeg",
+    "static/media/portfolio6.jpeg": "/static/media/portfolio6.bd35e553aea6372014fd.jpeg",
+    "static/media/portfolio4.jpeg": "/static/media/portfolio4.3d66ee24ba30479ae504.jpeg",
+    "static/media/portfolio1.jpeg": "/static/media/portfolio1.e55bba8e69f2962e2b52.jpeg",
+    "static/media/portfolio2.jpeg": "/static/media/portfolio2.e55bba8e69f2962e2b52.jpeg",
+    "static/media/profolio1.jpeg": "/static/media/profolio1.e55bba8e69f2962e2b52.jpeg",
+    "static/media/blogImg1.jpeg": "/static/media/blogImg1.84303e7ce3016e07645d.jpeg",
+    "static/media/portfolio3.jpeg": "/static/media/portfolio3.eaebb6a6c5e5ef3f4f50.jpeg",
+    "static/media/Profile.jpg": "/static/media/Profile.f73fdd657d7711ea50e6.jpg",
+    "static/media/reviewImg2.jpeg": "/static/media/reviewImg2.3977407c60d426ab449b.jpeg",
+    "static/media/reviewImg1.jpeg": "/static/media/reviewImg1.8e5b998fbc403c411818.jpeg",
+    "index.html": "/index.html",
+    "main.9685f432.css.map": "/static/css/main.9685f432.css.map",
+    "main.e754cab8.js.map": "/static/js/main.e754cab8.js.map",
+    "787.b14399f2.chunk.js.map": "/static/js/787.b14399f2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9685f432.css",
+    "static/js/main.e754cab8.js"
+  ]
+}
