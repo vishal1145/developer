@@ -1,15 +1,23 @@
-import React from 'react';
-import '../css/style.css';
-import Pick from '../assests/Your Image 1.png';
-import LeftArrow from '../assests/Frame.png';
-import HomeLeft from '../utility/homeLeft';
-import HomeRight from '../utility/homeRight';
+import React from "react";
+import "../css/style.css";
+import Pick from "../assests/Your Image 1.png";
+import LeftArrow from "../assests/Frame.png";
+import HomeLeft from "../utility/homeLeft";
+import HomeRight from "../utility/homeRight";
+import Services from "../Services";
+import PricePlan from "../PricePlan";
+import Recommendations from "../recommendation";
+import Education from "../Education";
+import WorkHistory from '../WorkHistory';
+import Portfolio from "../Portfolio";
+import Blog from "../Blog/blog";
+import Contact from "../Contact";
 
 function Home() {
   return (
     <div className="container-fluid p-0">
       <div className="d-flex">
-        <HomeLeft/>
+        <HomeLeft />
         <div className="home-mid">
           <div className="home-inner">
             <div className="h-m-div1">
@@ -17,22 +25,30 @@ function Home() {
                 I’m Rayan Adlrdard <span className="h-fd">Front-end</span>{" "}
                 Developer
               </h1>
-              <div>
+              <div className="h-about">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et,
                 volutpat feugiat placerat lobortis. Natoque rutrum semper sed
                 suspendisse nunc lectus.
               </div>
               <button className="btn hire-btn">
                 HIRE ME
-                <img src={LeftArrow} className=''/>
+                <img src={LeftArrow} className="leftArrow" />
               </button>
             </div>
             <div className="h-m-div2">
-              <img src={Pick} />
+              <img src={Pick} className="profile-img" />
             </div>
           </div>
+          <Services />
+          <PricePlan />
+          <Recommendations/>
+          <Education/>
+          <WorkHistory/>
+          <Portfolio/>
+          <Blog/>
+          <Contact/>
         </div>
-        <HomeRight/>
+        <HomeRight />
       </div>
     </div>
   );

@@ -1,0 +1,38 @@
+.contact{
+    display:flex;
+    margin:30px;
+}
+
+.leave-us{
+    width:55%;
+    margin-right:20px;
+    background-color:#FFF;
+    padding:20px;
+
+}
+
+.leave-us-form input{
+    margin-bottom:20px;
+}
+
+.leave-us-form label{
+    color:#767676;
+}
+
+.contact-card{
+    background-color:#FFF;
+    padding:20px;
+    color:#767676;
+    margin-bottom:20px;
+}
+
+.contact-card-details{
+    display:flex;
+    justify-content:center;
+}
+.contact-card-details img{
+    background-color:#FFB400;
+    border-radius:50%;
+    padding:10px;
+    margin:10px;
+}

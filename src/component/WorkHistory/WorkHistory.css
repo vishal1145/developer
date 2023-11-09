@@ -1,0 +1,33 @@
+:root{
+    --about:#767676;
+    --bg:#FFB400;
+}
+
+.education-board{
+    margin:20px;
+    background-color:#FFF;
+    padding:30px;
+}
+.education-div1{
+    width:100%;
+}
+.text-bold{
+    font-weight:500;
+}
+.text-gray{
+    color:var(--about);
+}
+.education-div1 div,.education-div2 div{
+    margin-bottom:15px;
+}
+
+.text-small{
+    font-size:14px;
+}
+.bg-yellow{
+    background-color:var(--bg);
+    color:white;
+    padding-inline:5px;
+    font-size:12px;
+    margin-left:15px;
+}

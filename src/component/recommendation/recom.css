@@ -1,0 +1,42 @@
+:root{
+    --about:#767676;
+}
+
+.review-board{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin:25px;
+}
+.review-card{
+    padding:30px;
+    background-color:#FFF;
+    margin: 0px 0px 10px 10px;
+}
+
+.review-img img{
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    margin-right:20px;
+}
+.review{
+    font-weight:bold;
+    margin-block:10px;
+}
+.review-about{
+    margin-bottom:10px;
+    color:var(--about);
+}
+
+.profession{
+    color:var(--about);
+}
+
+.review-person-details{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+.review-star img{
+    margin-right:5px;
+}
