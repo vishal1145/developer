@@ -11,14 +11,18 @@
 .leave-us-form{
     padding:20px;
     background-color:#FFF;
-    margin-block:30px;
+    margin-block:20px;
+    display: flex;
+    flex-direction: column;
+    height:90%;
 }
 .bg-input{
     margin-bottom:20px;
     background-color:#F0F0F6;
 }
 .input-msg{
-    height:310px;
+    display:flex;
+    flex:1;
 }
 
 .leave-us-form label{
@@ -33,7 +37,7 @@
     background-color:#FFF;
     padding:20px;
     color:#767676;
-    margin-block:30px;
+    margin-block:20px;
 }
 
 .contact-card-img{
@@ -49,4 +53,9 @@
 }
 .contact-card-details > div{
     margin-block:10px;
+}
+.submit-btn{
+    width:35%;
+    border-radius:0px;
+    font-weight:500;
 }

@@ -17,8 +17,8 @@ function Contact() {
           <label htmlFor="name">Subject</label>
           <input type="text" className="form-control bg-input" />
           <label htmlFor="name">Your Message</label>
-          <input type="text" className="form-control bg-input input-msg" />
-          <input type="sumbit" className="btn bg-yellow" value="Submit" />
+          <textarea type="text" className="form-control bg-input input-msg" />
+          <input type="sumbit" className="btn bg-yellow submit-btn" value="Send Message" />
         </div>
       </div>
       <div className="contact-info">
