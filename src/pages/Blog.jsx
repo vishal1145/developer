@@ -1,5 +1,3 @@
-import React from "react";
-import "./Blog.css";
 
 const blogData = [
   {
@@ -34,7 +32,7 @@ function Blog() {
         {blogData.map((val, i) => (
           <div className="portfolio-card" key={i}>
             <img
-              src={require(`../assests/${val.img}.jpeg`)}
+              src={require(`./assests/${val.img}.jpeg`)}
               alt={`portfolio ${i + 1}`}
             />
             <div className="port-details">
@@ -43,7 +41,7 @@ function Blog() {
                 {val.about}
               </div>
               <div className="learn-more">
-                Learn More <img src={require("../assests/Frame2.png")} />
+                Learn More <img src={require("./assests/Frame2.png")} />
               </div>
             </div>
           </div>

@@ -1,5 +1,5 @@
-import Pick from "../assests/Your Image 1.png";
-import LeftArrow from "../assests/Frame.png";
+import Pick from "./assests/Your Image 1.png";
+import LeftArrow from "./assests/Frame.png";
 
 function Intro() {
   return (
@@ -16,50 +16,50 @@ function Intro() {
           </div>
           <button className="hire-btn">
             HIRE ME
-            <img src={LeftArrow} className="leftArrow" />
+            <img src={LeftArrow} />
           </button>
         </div>
         <div className="h-m-div2">
-          <img src={Pick} className="profile-img" />
+          <img src={Pick} />
         </div>
 
         <img
-          src={require(`../assests/Ellipse1.png`)}
+          src={require(`./assests/Ellipse1.png`)}
           id="Ellipse1"
           className="into-bg-icons"
           alt=""
         />
         <img
-          src={require(`../assests/Ellipse2.png`)}
+          src={require(`./assests/Ellipse2.png`)}
           id="Ellipse2"
           className="into-bg-icons"
           alt=""
         />
         <img
-          src={require(`../assests/Ellipse3.png`)}
+          src={require(`./assests/Ellipse3.png`)}
           id="Ellipse3"
           className="into-bg-icons"
           alt=""
         />
         <img
-          src={require(`../assests/Ellipse4.png`)}
+          src={require(`./assests/Ellipse4.png`)}
           id="Ellipse4"
           className="into-bg-icons"
           alt=""
         />
         <img
-          src={require(`../assests/Ellipse5.png`)}
+          src={require(`./assests/Ellipse5.png`)}
           id="Ellipse5"
           className="into-bg-icons"
           alt=""
         />
         <div
-          src={require(`../assests/Ellipse5.png`)}
+          src={require(`./assests/Ellipse5.png`)}
           id="Ellipse6"
           className="into-bg-icons"
         ></div>
         <div
-          src={require(`../assests/Ellipse5.png`)}
+          src={require(`./assests/Ellipse5.png`)}
           id="Ellipse7"
           className="into-bg-icons"
         ></div>

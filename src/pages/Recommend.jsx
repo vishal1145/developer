@@ -1,5 +1,3 @@
-import React from "react";
-import './recom.css';
 
 const recomData = [
   {
@@ -46,7 +44,7 @@ function Recommendations() {
               {Array.from({ length: val.rating }, (_, i) => (
                 <img
                   key={i}
-                  src={require(`../assests/Star.png`)}
+                  src={require(`./assests/Star.png`)}
                   alt={`Star ${i + 1}`}
                 />
               ))}
@@ -55,7 +53,7 @@ function Recommendations() {
             <div className="review-about">{val.about}</div>
             <div className="d-flex">
               <div className="review-img">
-                <img src={require(`../assests/${val.img}.jpeg`)} />
+                <img src={require(`./assests/${val.img}.jpeg`)} />
               </div>
               <div className="review-person-details">
                 <div className="person-name">{val.name}</div>

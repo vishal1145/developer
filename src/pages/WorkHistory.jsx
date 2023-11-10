@@ -1,9 +1,8 @@
-import React from "react";
-import "./Education.css";
+
 
 const educationData = [
   {
-    course: "University of Toronto",
+    course: "Lead Web Designer",
     type: "Student",
     certificate: "Certificate of Web Training",
     date: "Jan 2018 - Dec 2023",
@@ -11,7 +10,7 @@ const educationData = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie risus enim neque eget dui.",
   },
   {
-    course: "Programming Course",
+    course: "Junior Web Designer",
     type: "Student",
     certificate: "Certificate of Web Training",
     date: "Jan 2018 - Dec 2023",
@@ -19,7 +18,7 @@ const educationData = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie risus enim neque eget dui.",
   },
   {
-    course: "Web Developer course",
+    course: "Senior Web Designer",
     type: "Student",
     certificate: "Certificate of Web Training",
     date: "Jan 2018 - Dec 2023",
@@ -28,10 +27,10 @@ const educationData = [
   },
 ];
 
-function Education() {
+function WorkHistory() {
   return (
-    <div className="services" id="education">
-      <h1>Education</h1>
+    <div className="services" id="workHistory">
+      <h1>Work History</h1>
       <div className="service-about">
         Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
         sint. Velit officia consequat duis enim velit mollit. lorem ipsum
@@ -57,4 +56,4 @@ function Education() {
   );
 }
 
-export default Education;
+export default WorkHistory;

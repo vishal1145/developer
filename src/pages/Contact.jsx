@@ -1,5 +1,3 @@
-import React from "react";
-import "./Contact.css";
 
 function Contact() {
   return (
@@ -28,7 +26,7 @@ function Contact() {
         <h2>Contact Information</h2>
         <div className="contact-card">
           <div className="contact-card-img">
-            <img src={require("../assests/location.png")} />
+            <img src={require("./assests/location.png")} />
           </div>
           <div className="contact-card-details">
             <div className="d-flex justify-content-between">
@@ -47,7 +45,7 @@ function Contact() {
         </div>
         <div className="contact-card">
           <div className="contact-card-img">
-            <img src={require("../assests/mail.png")} />
+            <img src={require("./assests/mail.png")} />
           </div>
           <div className="contact-card-details">
             <div className="d-flex justify-content-between">
@@ -66,7 +64,7 @@ function Contact() {
         </div>
         <div className="contact-card">
           <div className="contact-card-img">
-            <img src={require("../assests/Mobile.png")} />
+            <img src={require("./assests/Mobile.png")} />
           </div>
           <div className="contact-card-details">
             <div className="d-flex justify-content-between">

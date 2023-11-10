@@ -1,7 +1,6 @@
 import React from "react";
-import "./price.css";
-import Check from '../assests/Check.png';
-import Close from '../assests/Close.png';
+import Check from './assests/Check.png';
+import Close from './assests/Close.png';
 
 const pricePlanData = [
   {
@@ -43,7 +42,7 @@ function PricePlan() {
         Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
         sint. Velit officia consequat duis enim velit mollit. lorem ipsum
       </div>
-      <div className="service-board">
+      <div className="service-board price-board">
         {pricePlanData.map((price, i) => (
           <div
             className={`price-card ${price.isPopular && "popular-card"}`}

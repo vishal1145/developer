@@ -1,14 +1,14 @@
 import React from "react";
 import Services from "./Services";
 import PricePlan from "./PricePlan";
-import Recommendations from "./recommendation";
+import Recommendations from "./Recommend";
 import Education from "./Education";
 import WorkHistory from './WorkHistory';
 import Portfolio from "./Portfolio";
-import Blog from "./Blog/blog";
+import Blog from "./Blog";
 import Contact from "./Contact";
 import Footer from "./Footer";
-import Intro from "./Intro/Intro";
+import Intro from "./Intro";
 import NavBar from "./NavBar";
 import ProfileBar from "./ProfileBar";
 

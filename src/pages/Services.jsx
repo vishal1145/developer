@@ -44,7 +44,7 @@ function Services() {
             {idx < 5 && (
               <img
                 className="service-card-img"
-                src={require(`../assests/${val.img}.png`)}
+                src={require(`./assests/${val.img}.png`)}
               />
             )}
             <div className="service-card-name">{val.name}</div>
@@ -54,7 +54,7 @@ function Services() {
                 ORDER NOW{" "}
                 <img
                   className="right-arrow"
-                  src={require(`../assests/Frame2.png`)}
+                  src={require(`./assests/Frame2.png`)}
                 />
               </div>
             )}
