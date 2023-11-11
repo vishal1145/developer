@@ -36,7 +36,7 @@ const priceAccessData = [
 
 function PricePlan() {
   return (
-    <div className="services">
+    <div className="services d-none">
       <h1>Price Plans</h1>
       <div className="service-about">
         Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet

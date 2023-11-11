@@ -73,7 +73,7 @@ function Portfolio() {
   }, []);
 
   return (
-    <div className="services">
+    <div className="services" id="portfolio">
       <h1>Portfolio</h1>
       <div className="service-about">
         Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet

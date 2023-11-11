@@ -168,7 +168,7 @@ function NavBar() {
           </li>
           <li class="nav-item">
             <a
-              href="#blog"
+              href="#portfolio"
               className={`nav-link navlinks ${
                 activeTab === 4 && "active-icon"
               }`}

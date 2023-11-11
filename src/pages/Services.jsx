@@ -23,10 +23,9 @@ const serviceData = [
     about: "portrait, product photography",
   },
   {
-    img: "",
+    img: "serviceImg4",
     name: "Advertising",
-    about:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna viverra morbi.",
+    about: "portrait, product advertising",
   },
 ];
 
@@ -41,15 +40,12 @@ function Services() {
       <div className="service-board">
         {serviceData.map((val, idx) => (
           <div className="service-card" key={idx}>
-            {idx < 5 && (
               <img
                 className="service-card-img"
                 src={require(`./assests/${val.img}.png`)}
               />
-            )}
             <div className="service-card-name">{val.name}</div>
             <div className="service-card-about">{val.about}</div>
-            {idx === 5 && (
               <div className="mt-4 order-now">
                 ORDER NOW{" "}
                 <img
@@ -57,7 +53,6 @@ function Services() {
                   src={require(`./assests/Frame2.png`)}
                 />
               </div>
-            )}
           </div>
         ))}
       </div>

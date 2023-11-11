@@ -22,7 +22,7 @@ const blogData = [
 
 function Blog() {
   return (
-    <div className="services" id="blog">
+    <div className="services d-none" id="blog">
       <h1>Blog</h1>
       <div className="service-about">
         Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
