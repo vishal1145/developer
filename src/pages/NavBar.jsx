@@ -14,19 +14,6 @@ function NavBar() {
         <ul class="nav nav-pills nav-flush flex-column mb-auto align-items-center">
           <li class="nav-item">
             <a
-              href="#"
-              className="nav-link change-mode"
-              aria-current="page"
-              title=""
-              data-bs-toggle="tooltip"
-              data-bs-placement="right"
-              data-bs-original-title="Home"
-            >
-              <img src={ContrastImg} />
-            </a>
-          </li>
-          <li class="nav-item">
-            <a
               href="#home"
               class="active-icon"
               aria-current="page"

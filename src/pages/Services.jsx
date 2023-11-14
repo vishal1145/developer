@@ -46,13 +46,6 @@ function Services() {
               />
             <div className="service-card-name">{val.name}</div>
             <div className="service-card-about">{val.about}</div>
-              <div className="mt-4 order-now">
-                ORDER NOW{" "}
-                <img
-                  className="right-arrow"
-                  src={require(`./assests/Frame2.png`)}
-                />
-              </div>
           </div>
         ))}
       </div>

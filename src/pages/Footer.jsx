@@ -2,10 +2,10 @@
 function Footer() {
   return (
     <div className="footer">
-      <div className="map">
+      <div className="map d-none">
         <img src={require(`./assests/mapImg.png`)} />
       </div>
-      <div className="footer-logos">
+      <div className="footer-logos d-none">
         <img src={require(`./assests/FooterImg1.png`)} />
         <img src={require(`./assests/FooterImg2.png`)} />
         <img src={require(`./assests/FooterImg3.png`)} />

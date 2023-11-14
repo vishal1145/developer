@@ -3,6 +3,7 @@ import Profile from "./assests/Profile.jpg";
 import Available from "./assests/Available.png";
 
 function ProfileBar() {
+
   return (
     <div className="home-left">
       <div className="">
@@ -53,15 +54,11 @@ function ProfileBar() {
         </div>
       </div>
       <div className="homeLeft-about">
-        <div
-          className="d-flex justify-content-between align-items-center mb-2"
-        >
+        <div className="d-flex justify-content-between align-items-center mb-2">
           <div className="bg-yellow p-1">Age:</div>
           <div>24</div>
         </div>
-        <div
-          className="d-flex justify-content-between align-items-center mb-2"
-        >
+        <div className="d-flex justify-content-between align-items-center mb-2">
           <div className="bg-yellow p-1">Residence:</div>
           <div>BD</div>
         </div>
@@ -182,11 +179,11 @@ function ProfileBar() {
         </div>
       </div>
       <div className="home-left-language download-btn">
-        <a href="your_cv_file.pdf" download>
-          <button className="bg-yellow">
-            DOWNLOAD CV
-            <img src={require(`./assests/dowloadIcon.png`)} />
-          </button>
+        <a href="Sample.pdf" download target="_blank">
+        <button className="bg-yellow">
+          DOWNLOAD CV
+          <img src={require(`./assests/dowloadIcon.png`)} />
+        </button>
         </a>
       </div>
     </div>

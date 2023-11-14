@@ -27,6 +27,7 @@
   height: 100vh;
   position: fixed;
   right: 0;
+  padding-top:80px;
 }
 
 .home-inner {
@@ -523,15 +524,21 @@
   color: #767676;
   margin-bottom: 10px;
 }
-.contact-info {
-  width: 40%;
+.contact-info{
+  width:100%;
 }
+
+.contact-card-div{
+  width:100%;
+  display:flex;
+  justify-content:space-between;
+} 
 
 .contact-card {
   background-color: #fff;
-  padding: 20px;
+  padding: 30px;
   color: #767676;
-  margin-block: 20px;
+  width:30%;
 }
 
 .contact-card-img {
@@ -694,6 +701,14 @@
   .contact-info {
     width: 100%;
     margin-top: 50px;
+  }
+  .contact-card-div{
+    display:flex;
+    flex-direction:column;
+  }
+  .contact-card{
+    width:100%;
+    margin-bottom:20px;
   }
   .leave-us {
     width: 100%;
