@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fa13cd16.css",
+    "main.js": "/static/js/main.fbac4936.js",
+    "static/js/787.a464545c.chunk.js": "/static/js/787.a464545c.chunk.js",
+    "static/media/portfolio12.jpeg": "/static/media/portfolio12.50808adeccfd86cf0528.jpeg",
+    "static/media/mapImg.png": "/static/media/mapImg.2fef93236a8f9554ed83.png",
+    "static/media/portfolio14.jpeg": "/static/media/portfolio14.2949a07e3696d3e0aa3a.jpeg",
+    "static/media/portfolio7.jpeg": "/static/media/portfolio7.5848de563ac074d25302.jpeg",
+    "static/media/portfolio11.jpeg": "/static/media/portfolio11.ff95079d1206c1dde2fb.jpeg",
+    "static/media/portfolio1.jpeg": "/static/media/portfolio1.507c97048c5feb19888e.jpeg",
+    "static/media/portfolio2.jpeg": "/static/media/portfolio2.1329bebb34553c6383f8.jpeg",
+    "static/media/portfolio5.jpeg": "/static/media/portfolio5.1ce3841471e204bd5257.jpeg",
+    "static/media/portfolio13.jpeg": "/static/media/portfolio13.5fd40b7d898cb0e1a1a8.jpeg",
+    "static/media/portfolio4.jpeg": "/static/media/portfolio4.ca42e9a98b321fc443a3.jpeg",
+    "static/media/portfolio8.jpeg": "/static/media/portfolio8.017ba14a4b110ed6c81c.jpeg",
+    "static/media/portfolio9.jpeg": "/static/media/portfolio9.06ac472884a9d79035ec.jpeg",
+    "static/media/portfolio6.jpeg": "/static/media/portfolio6.c9ae7b0aafb3387d0836.jpeg",
+    "static/media/portfolio10.jpeg": "/static/media/portfolio10.3833e267a81736c6b516.jpeg",
+    "static/media/Your Img 1.png": "/static/media/Your Img 1.ff8a75fda6ea5454a3ca.png",
+    "static/media/resume.pdf": "/static/media/resume.45f4cb887ef799cae15f.pdf",
+    "static/media/alarm_clock.png": "/static/media/alarm_clock.159b7cfab03c02d9f35b.png",
+    "static/media/portfolio3.jpeg": "/static/media/portfolio3.fbb25104efb2de1ca245.jpeg",
+    "static/media/service_image.png": "/static/media/service_image.e81b4e3cc356de576bcc.png",
+    "static/media/profolio1.jpeg": "/static/media/profolio1.e55bba8e69f2962e2b52.jpeg",
+    "static/media/blogImg1.jpeg": "/static/media/blogImg1.84303e7ce3016e07645d.jpeg",
+    "static/media/product.png": "/static/media/product.979f31c509d2ad368370.png",
+    "static/media/ux.png": "/static/media/ux.e55a297da37599ed2af8.png",
+    "static/media/waving-hand-svgrepo-com.png": "/static/media/waving-hand-svgrepo-com.6312ae57a8d1a880676d.png",
+    "static/media/interactive.png": "/static/media/interactive.377e589048f2c8607fb8.png",
+    "static/media/blue_check.png": "/static/media/blue_check.16c575798e46ad61cee9.png",
+    "static/media/reviewImg2.jpeg": "/static/media/reviewImg2.3977407c60d426ab449b.jpeg",
+    "static/media/reviewImg1.jpeg": "/static/media/reviewImg1.8e5b998fbc403c411818.jpeg",
+    "index.html": "/index.html",
+    "main.fa13cd16.css.map": "/static/css/main.fa13cd16.css.map",
+    "main.fbac4936.js.map": "/static/js/main.fbac4936.js.map",
+    "787.a464545c.chunk.js.map": "/static/js/787.a464545c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa13cd16.css",
+    "static/js/main.fbac4936.js"
+  ]
+}
