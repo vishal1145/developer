@@ -16,42 +16,42 @@ const portfolioDummyData = [
   [
     { img: "portfolio1", webLink: "#" },
     { img: "portfolio2", webLink: "#" },
-    { img: "portfolio3", webLink : "#" },
-    { img: "portfolio4", webLink : "#" },
-    { img: "portfolio5", webLink : "#" },
-    { img: "portfolio6", webLink : "#" },
-    { img: "portfolio7", webLink : "#" },
-    { img: "portfolio8", webLink : "#" },
-    { img: "portfolio9", webLink : "#" },
+    { img: "portfolio3", webLink: "#" },
+    { img: "portfolio4", webLink: "#" },
+    { img: "portfolio5", webLink: "#" },
+    { img: "portfolio6", webLink: "#" },
+    { img: "portfolio7", webLink: "#" },
+    { img: "portfolio8", webLink: "#" },
+    { img: "portfolio9", webLink: "#" },
   ],
   [
-    { img: "portfolio1" , webLink : "#"  },
-    { img: "portfolio2" , webLink : "#"  },
-    { img: "portfolio4" , webLink : "#"  },
-    { img: "portfolio12" , webLink : "#"  },
-    { img: "portfolio11"  , webLink : "#" },
-    { img: "portfolio14" , webLink : "#"  },
+    { img: "portfolio1", webLink: "#" },
+    { img: "portfolio2", webLink: "#" },
+    { img: "portfolio4", webLink: "#" },
+    { img: "portfolio12", webLink: "#" },
+    { img: "portfolio11", webLink: "#" },
+    { img: "portfolio14", webLink: "#" },
   ],
   [
-    { img: "portfolio3"  , webLink : "#" },
-    { img: "portfolio6"  , webLink : "#" },
-    { img: "portfolio8"  , webLink : "#" },
-    { img: "portfolio9"  , webLink : "#" },
-    { img: "portfolio10"  , webLink : "#" },
+    { img: "portfolio3", webLink: "#" },
+    { img: "portfolio6", webLink: "#" },
+    { img: "portfolio8", webLink: "#" },
+    { img: "portfolio9", webLink: "#" },
+    { img: "portfolio10", webLink: "#" },
   ],
   [
-    { img: "portfolio4"  , webLink : "#" },
-    { img: "portfolio5"  , webLink : "#" },
-    { img: "portfolio7"  , webLink : "#" },
-    { img: "portfolio13"  , webLink : "#" },
-    { img: "portfolio14" , webLink : "#"  },
+    { img: "portfolio4", webLink: "#" },
+    { img: "portfolio5", webLink: "#" },
+    { img: "portfolio7", webLink: "#" },
+    { img: "portfolio13", webLink: "#" },
+    { img: "portfolio14", webLink: "#" },
   ],
   [
-    { img: "portfolio4"  , webLink : "#" },
-    { img: "portfolio5"  , webLink : "#" },
-    { img: "portfolio7"  , webLink : "#" },
-    { img: "portfolio13"  , webLink : "#" },
-    { img: "portfolio14" , webLink : "#"  },
+    { img: "portfolio4", webLink: "#" },
+    { img: "portfolio5", webLink: "#" },
+    { img: "portfolio7", webLink: "#" },
+    { img: "portfolio13", webLink: "#" },
+    { img: "portfolio14", webLink: "#" },
   ],
 ];
 
@@ -120,11 +120,14 @@ function Portfolio() {
         {portfolioData.map((val, i) => (
           <div>
             <div>
-              <img
-                key={i}
-                src={require(`./assests/${val.img}.jpeg`)}
-                alt={`portfolio ${i + 1}`}
-              />
+              <div className="tint-img">
+                <img
+                  key={i}
+                  src={require(`./assests/${val.img}.jpeg`)}
+                  alt={`portfolio ${i + 1}`}
+                />
+                <div></div>
+              </div>
               <div className="d-flex justify-content-between align-items-center">
                 <div>
                   <div className="vpn-heading">Vpn APP UI Design</div>

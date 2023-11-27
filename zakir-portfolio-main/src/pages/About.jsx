@@ -28,8 +28,6 @@ function About() {
             <div>
               <img
                 src={require("./assests/product.png")}
-                width={30}
-                height={30}
               />
             </div>
             <div className="fw-bold a-head-des">Product Design</div>
@@ -40,7 +38,7 @@ function About() {
           </div>
           <div className="about-card active">
             <div>
-              <img src={require("./assests/ux.png")} width={30} height={30} />
+              <img src={require("./assests/ux.png")}/>
             </div>
             <div className="fw-bold a-head-des">UI/UX Design</div>
             <div className="text-small">
@@ -52,8 +50,6 @@ function About() {
             <div>
               <img
                 src={require("./assests/interactive.png")}
-                width={30}
-                height={30}
               />
             </div>
             <div className="fw-bold a-head-des">Interactive Design</div>

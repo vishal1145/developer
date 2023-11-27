@@ -156,34 +156,37 @@
   align-items: center;
   padding-top: 100px;
 }
-.services-page {
-  margin-top: 130px;
-}
+
 .service-about {
   width: 60%;
   text-align: center;
-  margin: 25px;
   color: #767676;
+  margin-top: 15px;
+  margin-bottom:40px;
 }
 .service-board {
   display: flex;
   margin-inline: 80px;
   gap: 10px;
+  margin-bottom:80px;
 }
 
 .service-board-left img {
-  width: 500px;
+  width: 600px;
 }
 
 .service-board-right {
   display: flex;
   flex-wrap: wrap;
+  margin-top:40px;
 }
 .service-card {
-  width: 50%;
+  width: 40%;
+  margin-left:40px;
 }
 .service-card-img {
   margin-bottom: 20px;
+  border-radius:5px;
 }
 .service-card-name {
   font-weight: 500;
@@ -331,13 +334,19 @@
   display: flex;
   gap: 20px;
   margin-bottom: 20px;
-  z-index: 1;
+}
+.rec-arrow {
+  display:none;
+}
+.review-view{
+  display:flex;
+  gap:20px;
 }
 .review-card {
   width: 350px;
-  height: 300px;
-  padding: 30px;
+  padding: 15px;
   background-color: #fff;
+  color:#133240;
 }
 
 .review-img img {
@@ -351,8 +360,7 @@
   margin-bottom: 10px;
 }
 .review-about {
-  margin-bottom: 20px;
-  color: var(--about);
+  font-size:12px;
 }
 
 .profession {
@@ -404,6 +412,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  color:var(--about);
 }
 .portfolio-nav div {
   cursor: pointer;
@@ -416,25 +425,38 @@
 .portfolio-board {
   margin: 20px;
   width: 100%;
-  padding-inline: 80px;
+  padding-inline: 100px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  margin-bottom:20px;
 }
 
 .portfolio-board > div {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
-  padding: 20px;
-  margin: 20px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  padding: 10px;
+  margin: 10px;
   border-radius: 5px;
 }
 
 .portfolio-board img {
-  height: 300px;
-  width: 300px;
+  width: 340px;
+  height: 400px;
   margin-bottom: 20px;
   border-radius: 5px;
   object-fit: cover;
+}
+.tint-img{
+  position:relative;
+}
+.tint-img div{
+  width: 340px;
+  height: 400px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  background-color:rgba(0,0,0,0.1);
+  position:absolute;
+  top:0;
+  left:0;
 }
 .blog-board {
   margin: 20px;
@@ -447,7 +469,6 @@
 }
 
 .blog-board > div {
-  width: 300px;
   box-shadow: none;
   padding: 20px;
   margin: 20px;
@@ -520,9 +541,10 @@
 }
 
 .contact {
-  margin: 80px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
-  padding-top: 100px;
+  padding-top: 80px;
+  margin:80px;
+  margin-top:0px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 .contact h1 {
   text-align: center;
@@ -571,8 +593,8 @@
   font-size: 14px;
   font-weight: 500;
 }
-.right-2 {
-  margin-right: 10px;
+.right-3 {
+  margin-right: 20px;
 }
 
 .follow-us {
@@ -608,11 +630,31 @@
   margin-block: 10px;
 }
 .submit-btn {
-  width: 35%;
-  border-radius: 0px;
+  width: 50%;
+  border-radius: 5px;
   font-weight: 500;
   color: white;
   background-color: var(--primary);
+}
+.review-view{
+  z-index:10;
+}
+.rec-pagination{
+  z-index:10;
+  margin-top:30px;
+  margin-bottom:40px;
+}
+.testimonials .rec-pagination .rec-dot{
+  background-color:rgba(255,255,255,0.3);
+  box-shadow:none;
+  width:16px;
+  height:16px;
+}
+.blog-board .rec-pagination .rec-dot{
+  display:none;
+}
+.testimonials .rec-pagination .rec-dot_active{
+  background-color:rgba(255,255,255);
 }
 
 .portfolio-card {
@@ -636,7 +678,6 @@
 }
 .Blog-board {
   display: flex;
-  flex-wrap: wrap;
   gap: 20px;
 }
 .learn-more {
@@ -652,8 +693,8 @@
 }
 .navbar {
   padding: 15px 120px;
-  border-bottom: 1px solid grey;
-  z-index: 10;
+  border-bottom: 1px solid #DDDDDD;
+  z-index: 100;
 }
 .fixed-nav {
   position: fixed;
@@ -668,7 +709,7 @@
 }
 .a-div1 {
   background-color: #f6f4fc;
-  padding: 30px 150px;
+  padding: 0px 150px 30px 150px;
 }
 .a-div1 h1 {
   text-align: center;
@@ -713,10 +754,9 @@
   margin-block: 10px;
 }
 .a-div2 {
-  margin-block: 40px;
   margin-top: 100px;
 }
-.a-div2 div {
+.a-details {
   text-align: center;
 }
 .fs-large {
@@ -745,16 +785,18 @@
 }
 
 .testimonials {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   padding-inline: 80px;
   background-color: #f6f4fc;
   position: relative;
 }
 .testimonials h1 {
-  margin-top: 40px;
+  margin-top: 60px;
   margin-bottom: 10px;
+}
+.testimonials-inner{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
 }
 
 .testimonial-design-bg {
@@ -768,6 +810,12 @@
 .three-icons {
   z-index: 1;
   margin-bottom: 50px;
+}
+.left-cursor, .right-cursor{
+  display:flex;
+  align-items:center;
+  background-color:rgba(255,255,255,0.3);
+  border-radius:50%;
 }
 .design {
   display: flex;
@@ -821,6 +869,7 @@
   padding: 10px;
   border-radius: 5px;
 }
+
 .footer nav {
   border-top: 1px solid grey;
   margin-inline: 80px;
@@ -846,6 +895,19 @@
 .fs-14 {
   font-size: 14px;
 }
+.blog-board-inner{
+  display:flex;
+  gap:30px;
+}
+.about-card img {
+    width: 30px;
+    height:30px;
+    margin-block:20px;
+}
+.a-head-des{
+  margin-bottom:20px;
+}
+
 @media (max-width: 786px) {
   .navbar {
     padding: 20px 20px;
@@ -874,8 +936,8 @@
   }
   .h-m-div2 img {
     border-radius: 50%;
-    height: 150px;
-    width: 150px;
+    height: 250px;
+    width: 250px;
   }
   .h-heading {
     font-size: 2rem;
@@ -902,6 +964,7 @@
   }
   .a-div2 {
     flex-direction: column;
+    margin-top:50px;
   }
   .yellow-box {
     margin-block: 30px;
@@ -916,16 +979,41 @@
     flex-direction: column;
     margin: 15px;
   }
+  .services {
+    align-items:normal;
+    padding-top:50px;
+  }
   .service-about {
     width: 100%;
     padding: 10px;
   }
-  .services-page {
-    margin-top: 60px;
+  .a-div1-inner-left{
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+  }
+  .a-div1-inner{
+    display:flex;
+    gap:2rem;
+    flex-direction:column;
+    align-items:center;
+  }
+  .experience{
+    width:30%;
+  }
+  .about-email{
+    margin-bottom:20px;
+  }
+  .services h1{
+    text-align:center;
   }
   .service-card {
     margin-left: 0px;
+    margin-bottom:20px;
     width: 50%;
+  }
+  .design{
+    padding-top:50px;
   }
   .testimonials {
     padding-inline: 0px;
@@ -943,7 +1031,10 @@
   }
   .review-card {
     width: 100%;
-    margin-right: 0px;
+    margin-left: 20px;
+  }
+  .rec-pagination{
+    margin-bottom:20px;
   }
   .d-cards {
     flex-direction: column;
@@ -955,7 +1046,7 @@
   }
   .contact-inner {
     flex-direction: column;
-    padding: 20px;
+    padding: 0px;
   }
   .form-box {
     flex-direction: column;
@@ -994,12 +1085,24 @@
     padding-inline:0px;
   }
   .service-board-left img{
-    width:400px;
+    width:100%;
   }
   .portfolio-board img {
+    width:100%;
     height: 295px;
     margin: 0px;
     margin-bottom: 15px;
+  }
+  .tint-img div{
+    width:100%;
+    height:295px;
+  }
+  .review-view{
+    flex-direction:column;
+  }
+  .testimonial-design-bg{
+    top:30rem;
+    left:5rem;
   }
   .add-profile {
     top: 0;
@@ -1008,6 +1111,9 @@
   }
   .Blog-board {
     margin: 15px;
+  }
+  .blog-board > div{
+    flex-direction:column;
   }
   .portfolio-card {
     width: 100%;
@@ -1028,6 +1134,30 @@
   }
   .about-card.active {
     width: 100%;
+  }
+  .about-card img {
+    width: 50px;
+    height:50px;
+  }
+  .d-cards {
+    margin-inline:20px;
+  }
+  .blog-board > div {
+    margin:0px;
+    padding:0px;
+  }
+  .leave-us-form {
+    padding:0px;
+  }
+  .right-3{
+    margin-right:0px;
+  } 
+  .mr-1{
+    margin-right:10px;
+  }
+  .blog-board-inner{
+    flex-direction:column;
+    margin-right:20px;
   }
 }
 

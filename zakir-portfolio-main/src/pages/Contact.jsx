@@ -12,7 +12,7 @@ function Contact() {
           <div className="contact-get-in">Get in touch</div>
           <div>
             <div className="d-flex my-2">
-              <div className="right-2">
+              <div className="right-3 mr-1">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -56,7 +56,7 @@ function Contact() {
               </div>
             </div>
             <div className="d-flex my-2">
-              <div className="right-2">
+              <div className="right-3 mr-1">
                 <svg
                   width="30"
                   height="30"
@@ -84,7 +84,7 @@ function Contact() {
               </div>
             </div>
             <div className="d-flex my-2">
-              <div className="right-2">
+              <div className="right-3 mr-1">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   height="30"
@@ -202,7 +202,7 @@ function Contact() {
         <div className="leave-us">
           <div className="leave-us-form">
             <div className="d-flex form-box">
-              <div className="right-2">
+              <div className="right-3">
                 <label htmlFor="fname" className="form-label">
                   First Name*
                 </label>
@@ -226,7 +226,7 @@ function Contact() {
               </div>
             </div>
             <div className="d-flex form-box">
-              <div className="right-2">
+              <div className="right-3">
                 <label htmlFor="email">Email*</label>
                 <input
                   type="email"
