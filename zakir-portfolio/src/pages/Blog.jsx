@@ -34,16 +34,19 @@ function Blog() {
                   src={require(`./assests/${item[0].img}.jpeg`)}
                   alt={`portfolio ${i + 1}`}
                 />
-                <div className="vpn-heading">How to prototype in Figma</div>
-                <div className="vpn-about mx-2 my-3">July 10, 2023</div>
-                <div className="vpn-about">
-                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                  amet sint. Velit officia consequat duis enim velit mollit.
-                </div>
-                <div className="blog-link">
-                  <a href={item[0].webLink} target="_blank">
-                    Continue Reading
-                  </a>
+                <div className="blog-content">
+                  <div className="vpn-heading">How to prototype in Figma</div>
+                  <div className="vpn-about mx-2 my-3">July 10, 2023</div>
+                  <div className="vpn-about">
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                    do amet sint. Velit officia consequat duis enim velit
+                    mollit.
+                  </div>
+                  <div className="blog-link">
+                    <a href={item[0].webLink} target="_blank">
+                      Continue Reading
+                    </a>
+                  </div>
                 </div>
               </div>
 
@@ -52,16 +55,20 @@ function Blog() {
                   src={require(`./assests/${item[1].img}.jpeg`)}
                   alt={`portfolio ${i + 1}`}
                 />
-                <div className="vpn-heading">How to prototype in Figma</div>
-                <div className="vpn-about mx-2 my-3">July 10, 2023</div>
-                <div className="vpn-about">
-                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                  amet sint. Velit officia consequat duis enim velit mollit.
-                </div>
-                <div className="blog-link">
-                  <a href={item[1].webLink} target="_blank">
-                    Continue Reading
-                  </a>
+
+                <div className="blog-content">
+                  <div className="vpn-heading">How to prototype in Figma</div>
+                  <div className="vpn-about mx-2 my-3">July 10, 2023</div>
+                  <div className="vpn-about">
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                    do amet sint. Velit officia consequat duis enim velit
+                    mollit.
+                  </div>
+                  <div className="blog-link">
+                    <a href={item[1].webLink} target="_blank">
+                      Continue Reading
+                    </a>
+                  </div>
                 </div>
               </div>
 
@@ -70,16 +77,19 @@ function Blog() {
                   src={require(`./assests/${item[2].img}.jpeg`)}
                   alt={`portfolio ${i + 1}`}
                 />
-                <div className="vpn-heading">How to prototype in Figma</div>
-                <div className="vpn-about mx-2 my-3">July 10, 2023</div>
-                <div className="vpn-about">
-                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                  amet sint. Velit officia consequat duis enim velit mollit.
-                </div>
-                <div className="blog-link">
-                  <a href={item[2].webLink} target="_blank">
-                    Continue Reading
-                  </a>
+                <div className="blog-content">
+                  <div className="vpn-heading">How to prototype in Figma</div>
+                  <div className="vpn-about mx-2 my-3">July 10, 2023</div>
+                  <div className="vpn-about">
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                    do amet sint. Velit officia consequat duis enim velit
+                    mollit.
+                  </div>
+                  <div className="blog-link">
+                    <a href={item[2].webLink} target="_blank">
+                      Continue Reading
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
