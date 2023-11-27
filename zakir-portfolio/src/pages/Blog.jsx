@@ -25,7 +25,7 @@ function Blog() {
         Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
         sint. Velit officia consequat duis enim velit mollit. lorem ipsum
       </div>
-      <div className="portfolio-board blog-board">
+      <div className="blog-board">
         <Carousel>
           {portfolioDummyData.map((item, i) => (
             <div className="blog-board-inner">

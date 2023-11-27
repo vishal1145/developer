@@ -3,7 +3,9 @@
   --about: #767676;
   --active: #7eb942;
 }
-
+.nav-link{
+  color:black;
+}
 *::first-letter {
   text-transform: uppercase;
 }
@@ -31,8 +33,6 @@
   background-color: #fff;
   padding-inline: 120px;
   padding-top: 100px;
-  justify-content: space-between;
-
 }
 
 .into-bg-icons {
@@ -431,6 +431,7 @@
   display: flex;
   flex-wrap: wrap;
   margin-bottom:20px;
+  justify-content: center;
 }
 
 .portfolio-board > div {
@@ -438,10 +439,11 @@
   padding: 10px;
   margin: 10px;
   border-radius: 5px;
+  width:30%
 }
 
 .portfolio-board img {
-  width: 340px;
+  width: 100%;
   height: 400px;
   margin-bottom: 20px;
   border-radius: 5px;
@@ -451,7 +453,7 @@
   position:relative;
 }
 .tint-img div{
-  width: 340px;
+  width: 100%;
   height: 400px;
   margin-bottom: 20px;
   border-radius: 5px;
@@ -530,7 +532,10 @@
   display: flex;
   justify-content: space-between;
 }
-
+.navbar-collapse.show{
+  flex-direction:column;
+  align-items:start;
+}
 .text-bold {
   font-weight: 500;
 }
@@ -695,7 +700,7 @@
 }
 .navbar {
   padding: 15px 120px;
-  border-bottom: 1px solid #DDDDDD;
+  border-bottom: 1px solid grey;
   z-index: 100;
 }
 .fixed-nav {
@@ -902,15 +907,129 @@
   gap:30px;
 }
 .about-card img {
-    width: 30px;
-    height:30px;
-    margin-block:20px;
+  width: 35px;
+  height:35px;
 }
-.a-head-des{
-  margin-bottom:20px;
+.about-card1 img{
+  background-color:rgba(78,216,221,0.2);
+  padding:8px;
+  border-radius:10px;
+}
+.about-card2 svg{
+  background-color:rgba(100,68,202,0.2);
+  padding:8px;
+  border-radius:10px;
+}
+.about-card3 img{
+  background-color:rgba(253,137,136,0.2);
+  padding:8px;
+  border-radius:10px;
 }
 
-@media (max-width: 786px) {
+@media only screen and (min-width: 768px)  and (max-width: 1024px) {
+  .navbar {
+    padding: 20px 20px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  }
+  .home-mid {
+    width: 100%;
+    margin-right: 0px;
+  }
+  .home-inner {
+    flex-direction: column-reverse;
+    padding-inline: 20px;
+  }
+  .h-m-div1 {
+    width: 100%;
+    padding-inline:200px;
+  }
+  .h-follow-me {
+    gap: 15px;
+  }
+  .h-m-div2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  .h-m-div2 img {
+    border-radius: 50%;
+    height: 450px;
+    width: 450px;
+  }
+  .h-heading {
+    font-size: 2rem;
+  }
+  .h-about {
+    width: 100%;
+  }
+  .about-cards{
+    margin-left: 0%;
+    margin-top: 20px;
+  }
+  .about-card{
+    padding: 15px;
+  }
+  .a-div1{
+    padding: 0px 60px 30px 120px;
+  }
+  .a-div2{
+    flex-direction:column;
+    align-items:center;
+    margin-top:20px;
+    gap:50px;
+  }
+  .a-details {
+    flex-direction:row;
+  }
+  .a-div1-inner{
+    flex-direction:column;
+    gap:2rem;
+  }
+  .a-div1-inner-left{
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;
+  }
+  .experience{
+    font-size:2rem;
+    font-weight:500;
+    
+  }
+  .about-card {
+    width:30%;
+  }
+  .about-card.text-small{
+    font-size:12px;
+  }
+  .portfolio-nav{
+    justify-content:space-around;
+  }
+  .portfolio-board{
+    padding-inline:30px;
+  } 
+  .service-board{
+    margin-inline:0px;
+  }
+  .service-board-left, .service-board-right {
+    width:50%;
+  }
+  .service-board-left img{
+    width:100%;
+    height:100%;
+  }
+  .service-card{
+    margin-bottom:20px;
+  }
+  .d-cards{
+    gap:20px;
+  }
+  .blog-board {
+    padding-inline:0px;
+  }
+}
+
+@media (max-width: 768px) {
   .navbar {
     padding: 20px 20px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
@@ -963,6 +1082,11 @@
   }
   .about-card {
     width: 100%;
+    padding:35px;
+  }
+  .a-head-des{
+    padding-bottom:12px;
+    font-size:18px;
   }
   .a-div2 {
     flex-direction: column;
@@ -970,6 +1094,7 @@
   }
   .yellow-box {
     margin-block: 30px;
+    justify-content: center;
   }
   .a-details {
     flex-direction: column;
@@ -1002,6 +1127,7 @@
   }
   .experience{
     width:30%;
+    font-size:1.2rem;
   }
   .about-email{
     margin-bottom:20px;
@@ -1070,10 +1196,14 @@
     margin-right: 0px;
   }
   .portfolio-nav {
-    gap: 0px;
+    gap: 5px;
     overflow-x: auto;
     font-size: 12px;
-    margin-inline: 10px;
+    margin-inline: 5px;
+    justify-content: space-around;
+  }
+  .portfolio-nav div {
+    padding:3px;
   }
   .education-board {
     padding: 10px;
@@ -1114,6 +1244,9 @@
   .Blog-board {
     margin: 15px;
   }
+  .blog-board{
+    padding-inline:0px;
+  }
   .blog-board > div{
     flex-direction:column;
   }
@@ -1140,6 +1273,10 @@
   .about-card img {
     width: 50px;
     height:50px;
+    padding-bottom:10px;
+  }
+  .about-card > div {
+    padding-bottom:10px;
   }
   .d-cards {
     margin-inline:20px;
@@ -1160,6 +1297,29 @@
   .blog-board-inner{
     flex-direction:column;
     margin-right:20px;
+  }
+  .footer nav{
+    display:flex;
+    justify-content:center;
+  }
+  .portfolio-board > div{
+    width:100%;
+  }
+  .design{
+    display:none;
+  }
+}
+
+
+@media (max-width: 768px) and (min-width:768px){
+  .service-board{
+    flex-direction:row;
+  }
+  .a-details{
+    flex-direction:row;
+  }
+  .d-cards{
+    flex-direction:row;
   }
 }
 
