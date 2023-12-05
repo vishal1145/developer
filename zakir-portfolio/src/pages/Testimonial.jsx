@@ -76,7 +76,7 @@ const recomData = [
 function Testimonial() {
   return (
     <div>
-      <div className="testimonials">
+      <div className="testimonials d-none">
         <div className="testimonials-inner">
           <h1>Testimonials</h1>
           <div className="heading-highlighter div">

@@ -16,7 +16,7 @@ const portfolioDummyData = [
 
 function Blog() {
   return (
-    <div className="services" id="Blog">
+    <div className="services d-none" id="Blog">
       <h1>Personal Blog</h1>
       <div className="heading-highlighter div">
         <div></div>

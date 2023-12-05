@@ -730,7 +730,7 @@
 .navbar-collapse {
   display: flex;
   justify-content: space-between;
-  margin-left: 200px;
+  margin-left: 250px;
 }
 .a-div1 {
   background-color: #f6f4fc;
@@ -1252,7 +1252,7 @@
     margin-right: 25px;
   }
   .portfolio-board {
-    margin: 15px;
+    margin: 0px;
     padding-inline: 0px;
   }
   .service-board-left img {

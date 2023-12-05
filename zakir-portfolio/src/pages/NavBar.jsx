@@ -68,7 +68,7 @@ function NavBar() {
                   Services
                 </a>
               </li>
-              <li class="nav-item">
+              {/* <li class="nav-item">
                 <a
                   class="nav-link"
                   href="#Blog"
@@ -77,7 +77,7 @@ function NavBar() {
                 >
                   Personal Blog
                 </a>
-              </li>
+              </li> */}
               <li class="nav-item">
                 <a
                   class="nav-link"

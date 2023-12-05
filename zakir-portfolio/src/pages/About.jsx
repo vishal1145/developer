@@ -93,7 +93,7 @@ function About() {
           </div>
         </div>
       </div>
-      <div className="a-div2 d-flex">
+      <div className="a-div2 d-flex d-none">
         <div className="yellow-box">
           <div>
             <div>

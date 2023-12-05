@@ -2,7 +2,7 @@ import React from 'react'
 
 function Design() {
   return (
-    <div className="design" id="design">
+    <div className="design d-none" id="design">
       <h1>Design Process</h1>
       <div className="heading-highlighter div">
         <div></div>
