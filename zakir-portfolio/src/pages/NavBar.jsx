@@ -89,9 +89,9 @@ function NavBar() {
                 </a>
               </li>
             </ul>
-            <button className="btn hire-btn" type="submit">
+            <a className="hire-btn nav-btn" type="submit" href="#Contact">
               Hire Me
-            </button>
+            </a>
           </div>
         </div>
       </nav>
